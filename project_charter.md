@@ -57,15 +57,23 @@ The following milestones correspond directly to the team’s sprint structure on
 
 *(Table placeholder – will be completed in a future workshop once requirements are locked.)*
 
-## 4. Deliverables
+# 4. Deliverables
 
-1. **Authentication Module** — Secure sign-up, login, password reset, and email confirmation.  
-2. **Trip Management Module** — Trip creation, joining, and member role assignments.  
-3. **Itinerary Module** — Activity planning with list and calendar views.  
-4. **Collaboration Tools** — In-app chat and real-time notifications.  
-5. **Voting Feature** — Collective decision-making on trip options.  
-6. **API Integration** — Travel search and media uploads using external services.  
-7. **Automation Pipeline** — Dockerized environment and continuous deployment setup.
+The Trip Sharing App project will produce several key deliverables that ensure the functionality, usability, and maintainability of the system. Each deliverable represents a major outcome of development, testing, or integration work completed during specific sprints.
+
+| # | Deliverable | Description |
+|---|--------------|-------------|
+| 1 | **Authentication Module** | Implements secure user sign-up, login, logout, and password reset functionality using modern authentication standards (e.g., JWT or Firebase Auth). Includes email verification and encrypted credential storage. |
+| 2 | **Trip Management Module** | Enables users to create, join, and manage trips. Supports trip ownership roles (owner, editor, viewer), invitation management, and basic trip metadata (title, dates, description). |
+| 3 | **Itinerary Module** | Provides functionality to create, edit, and organize trip activities. Displays data both in a chronological list view and calendar view to help groups visualize their plans. |
+| 4 | **Collaboration Tools** | Adds real-time chat and group messaging within each trip, allowing participants to discuss plans and updates. Also includes push notifications for activity changes and important updates. |
+| 5 | **Voting Feature** | Allows group members to propose and vote on trip decisions such as destination, travel dates, or activities. Displays results transparently to promote consensus-based planning. |
+| 6 | **API Integration Layer** | Integrates with third-party travel APIs (e.g., Skyscanner) for flight and accommodation search, and supports media upload functionality for photos and shared trip galleries. |
+| 7 | **Automation & Deployment Pipeline** | Includes a Dockerized environment for consistent builds, along with CI/CD workflows (e.g., GitHub Actions) to automate testing, deployment, and delivery to hosting platforms. |
+| 8 | **Documentation Package** | Provides detailed user documentation, developer setup instructions, and API references. Ensures maintainability and scalability for future iterations of the app. |
+| 9 | **Testing Suite** | Includes automated unit, integration, and UI tests to validate app stability, data integrity, and user experience across devices. |
+
+---
 
 ### 4.1 Gantt Chart  
 *(To be added in later workshops)*  
