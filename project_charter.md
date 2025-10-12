@@ -20,30 +20,37 @@ Have a production-ready mobile application that allows a group to (a) sign up / 
 
 The following milestones correspond directly to the team’s sprint structure on GitHub, representing the logical progression of development phases for the Trip Sharing App:
 
-1. **Sprint 1 — Auth & First Trip**  
-   Implement authentication (sign-up, log-in, password reset) and allow users to create or join their first trip.
+Sprint 1 — Authentication & First Trip
 
-2. **Sprint 2 — Invitations & Roles**  
-   Enable users to invite others to a trip and assign roles (owner, editor, viewer).
+Set up the user authentication system, including sign-up, login, logout, and password reset. Implement JWT or Firebase Authentication for secure credential management. Once authenticated, users can create or join their first trip, establishing the foundation for personalized trip data.
 
-3. **Sprint 3 — Itinerary (List & Calendar)**  
-   Create functionality to add, edit, and display trip activities in list and calendar formats.
+Sprint 2 — Invitations & Roles
 
-4. **Sprint 4 — Real-time Chat**  
-   Develop in-app messaging to support real-time group communication within a trip.
+Introduce trip collaboration features. Users can invite others via email or shareable code. Define role-based permissions such as Owner (full control), Editor (can modify trip data), and Viewer (read-only). This sprint ensures structured collaboration among users.
 
-5. **Sprint 5 — Voting System**  
-   Add group voting on trip decisions (e.g., destination, date, activities) with visible results.
+Sprint 3 — Itinerary (List & Calendar View)
 
-6. **Sprint 6 — Travel Integration (Skyscanner)**  
-   Integrate third-party APIs for flights and accommodations to enrich the planning experience.
+Develop the itinerary management module to let users add, update, and delete trip activities. Activities will be displayed in list format for quick edits and calendar view for visual organization. This phase enhances trip planning clarity.
 
-7. **Sprint 7 — Media & Notifications**  
-   Implement push notifications for updates and allow photo uploads to a shared trip album.
+Sprint 4 — Real-time Chat
 
-8. **Sprint 8 — CI/CD, Docker & Polish**  
-   Finalize development with containerization, CI/CD automation, and general refinements for stability and deployment.
+Implement an in-app messaging system using technologies like Firebase Realtime Database or WebSockets. Each trip will have its own chat room for discussions, enabling members to coordinate instantly without switching platforms.
 
+Sprint 5 — Voting System
+
+Add a voting mechanism where members can create polls (e.g., choosing destinations or travel dates). Votes will be displayed transparently with real-time result updates, supporting democratic decision-making within groups.
+
+Sprint 6 — Travel Integration (Skyscanner API)
+
+Integrate third-party travel APIs, such as Skyscanner, to allow users to search for flights and accommodations directly in the app. This streamlines trip planning by connecting decision-making with real-world travel options.
+
+Sprint 7 — Media & Notifications
+
+Add a photo-sharing module for users to upload pictures related to their trips. Implement push notifications for updates like new messages, itinerary edits, or votes. This enhances engagement and keeps everyone informed.
+
+Sprint 8 — CI/CD, Docker & Final Polish
+
+Focus on deployment readiness and optimization. Containerize the app using Docker and implement CI/CD pipelines via GitHub Actions for automated testing and delivery. Perform bug fixes, UI refinements, and performance tuning before release.
 
 ### 3.1 Work Breakdown Structure
 
