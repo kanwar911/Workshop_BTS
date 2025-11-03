@@ -59,10 +59,13 @@ Focus on deployment readiness and optimization. Containerize the app using Docke
 ### 3.2 Requirements Traceability Matrix
 
 | Req ID | Requirement | Del ID | Deliverable | Owner | Status |
-|---------|--------------|--------|--------------|--------|---------|
-| — | — | — | — | — | — |
-
-*(Table placeholder – will be completed in a future workshop once requirements are locked.)*
+|--------|--------------|--------|--------------|--------|---------|
+| REQ01 | Secure user authentication and authorization | DEL01 | Authentication Module | Team | Completed |
+| REQ02 | Trip creation, management, and deletion through API | DEL02 | Trip Management System | Team | In Progress |
+| REQ03 | Invitation system with accept/reject functionality | DEL03 | Invitation & Collaboration Feature | Team | Planned |
+| REQ04 | Flight and accommodation data fetched from external API | DEL04 | Travel API Integration | Team | Planned |
+| REQ05 | Real-time updates and notifications | DEL05 | Media & Notification System | Team | Planned |
+| REQ06 | Automated testing and CI/CD deployment | DEL06 | Testing & Deployment Pipeline | Team | Planned |
 
 # 4. Deliverables
 
