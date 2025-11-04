@@ -54,7 +54,7 @@ Focus on deployment readiness and optimization. Containerize the app using Docke
 
 ### 3.1 Work Breakdown Structure
 
-*(The detailed diagram will be added in a later workshop.)*
+![Work Breakdown Structure](./WBS/WBS_WS7.png)
 
 ### 3.2 Requirements Traceability Matrix
 
