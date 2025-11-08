@@ -66,6 +66,9 @@ Focus on deployment readiness and optimization. Containerize the app using Docke
 | REQ04 | Flight and accommodation data fetched from external API | DEL04 | Travel API Integration | Team | Planned |
 | REQ05 | Real-time updates and notifications | DEL05 | Media & Notification System | Team | Planned |
 | REQ06 | Automated testing and CI/CD deployment | DEL06 | Testing & Deployment Pipeline | Team | Planned |
+| REQ07  | App must allow users to upload media to trips | DEL05 | Media & Notification System | Planned |
+| REQ08  | App must present itinerary updates in real time | DEL05 | Media & Notification System | Planned |
+| REQ09  | App must handle API errors gracefully with fallback UI | DEL06 | API Integration Layer | Planned |
 
 # 4. Deliverables
 
