@@ -59,16 +59,18 @@ Focus on deployment readiness and optimization. Containerize the app using Docke
 ### 3.2 Requirements Traceability Matrix
 
 | Req ID | Requirement | Del ID | Deliverable | Owner | Status |
-|--------|--------------|--------|--------------|--------|---------|
+|--------|--------------|--------|------------|--------|---------|
 | REQ01 | Secure user authentication and authorization | DEL01 | Authentication Module | Team | Completed |
 | REQ02 | Trip creation, management, and deletion through API | DEL02 | Trip Management System | Team | In Progress |
 | REQ03 | Invitation system with accept/reject functionality | DEL03 | Invitation & Collaboration Feature | Team | Planned |
 | REQ04 | Flight and accommodation data fetched from external API | DEL04 | Travel API Integration | Team | Planned |
 | REQ05 | Real-time updates and notifications | DEL05 | Media & Notification System | Team | Planned |
 | REQ06 | Automated testing and CI/CD deployment | DEL06 | Testing & Deployment Pipeline | Team | Planned |
-| REQ07  | App must allow users to upload media to trips | DEL05 | Media & Notification System | Planned |
-| REQ08  | App must present itinerary updates in real time | DEL05 | Media & Notification System | Planned |
-| REQ09  | App must handle API errors gracefully with fallback UI | DEL06 | API Integration Layer | Planned |
+| REQ07 | App must allow users to upload media to trips | DEL05 | Media & Notification System | Team | Planned |
+| REQ08 | App must present itinerary updates in real time | DEL05 | Media & Notification System | Team | Planned |
+| REQ09 | App must handle API errors gracefully with fallback UI | DEL06 | API Integration Layer | Team | Planned |
+| REQ10 | App must support responsive UI for both web and mobile screens | DEL07 | Responsive Frontend Interface | Team | Planned |
+| REQ11 | All trip and user data must persist in a secure database | DEL08 | Database Schema & Persistence Layer | Team | Planned |
 
 # 4. Deliverables
 
