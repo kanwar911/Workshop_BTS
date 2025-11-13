@@ -94,7 +94,7 @@ The Trip Sharing App project will produce several key deliverables that ensure t
 ![Gantt Chart](./artifacts/BTS_WS_GANTT_CHART.png)
 
 ## Budget
-![Budget Table](./artifacts/BTS_WS_BUDGET.csv)
+![Budget Table](./artifacts/BTS_WS_BUDGET.png)
 
 ## 5. Preliminary Budget  
 *(To be added in later workshops)*  
