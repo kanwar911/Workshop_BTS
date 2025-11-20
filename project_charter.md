@@ -97,7 +97,7 @@ The Trip Sharing App project will produce several key deliverables that ensure t
 ![Budget Table](./artifacts/BTS_WS_BUDGET.png)
 
 ## 6. Organization and Stakeholders  
-*(To be added in later workshops)*    
+![Stakeholders](./artifacts/BTS_WS_MATRIX.png)   
 
 ## 7. Risks, Assumptions, and Constraints  
 *(To be added in later workshops)*    
