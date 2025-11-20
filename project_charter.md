@@ -99,5 +99,17 @@ The Trip Sharing App project will produce several key deliverables that ensure t
 ## 6. Organization and Stakeholders  
 ![Stakeholders](./artifacts/BTS_WS_MATRIX.png)   
 
+### 6.1 Communication Plan
+### Communications Plan
+
+| Communication Item | Stakeholder | Purpose | Frequency | Format | Responsible |
+|--------------------|-------------|----------|-----------|---------|-------------|
+| Sprint Progress Updates | Project Sponsor | Keep sponsor informed on budget, timeline, and risks | Weekly | Email + Sprint Report | Project Manager |
+| Development Sync & Issue Tracking | Mobile Engineers | Discuss technical blockers, assign tasks, align on development | Twice per week | Slack + GitHub Issues | Tech Lead |
+| API Integration Review | External Partners | Review feasibility, API limits, and integration changes | As needed / milestone-based | Email + API Documentation | API Integration Lead |
+| Feature Prioritization Meeting | Product Owner | Validate requirements, prioritize features, ensure alignment with user needs | Weekly | Zoom Meeting + Product Board | Product Manager |
+| User Feedback Collection | End Users | Gather usability feedback, test trip-sharing features | At prototype & major releases | Surveys + In-App Feedback | UX Researcher |
+| Compliance & Data Protection Check | Government Regulators | Ensure adherence to privacy laws and data security standards | At key deliverables | Compliance Report | Compliance Officer |
+
 ## 7. Risks, Assumptions, and Constraints  
 *(To be added in later workshops)*    
