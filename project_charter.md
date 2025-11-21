@@ -112,4 +112,38 @@ The Trip Sharing App project will produce several key deliverables that ensure t
 | Compliance & Data Protection Check | Government Regulators | Ensure adherence to privacy laws and data security standards | At key deliverables | Compliance Report | Compliance Officer |
 
 ## 7. Risks, Assumptions, and Constraints  
-*(To be added in later workshops)*    
+
+### 7.1 Identified Risks
+
+1. Security & Data Breach Risk (High Impact, High Likelihood)
+Sensitive trip details, user chats, and personal information could be exposed due to vulnerabilities in authentication, API endpoints, or insecure storage.
+2. Third-Party API Failure (High Impact, Low Likelihood)
+Skyscanner or external travel APIs may experience downtime, rate limits, or data errors, breaking flight/hotel search features.
+3. Development Delays due to Technical Complexity (High Likelihood, High Impact)
+Team workload, bugs in chat/voting modules, or CI/CD issues may slow down sprint completion and affect the release timeline.
+4. Poor User Adoption or Low Engagement (Low Likelihood, High Impact)
+Users may find the app confusing or not valuable, resulting in limited usage of collaboration or itinerary features.
+5. Media Upload Storage Overrun (High Likelihood, Low Impact)
+Users uploading many trip photos may exceed storage quotas or increase cloud costs unexpectedly.
+6. Compliance & Privacy Risk (Low Likelihood, High Impact)
+Failure to align with data protection laws (GDPR, PIPEDA, etc.) could lead to penalties or forced redesign of the backend.
+
+### 7.2 Matrix of Risks
+![Risk_Matrix](./artifacts/Risk_Matrix.png)
+
+### 7.2 Assumptions
+- All team members have basic familiarity with mobile development tools and GitHub workflow.
+- External APIs (e.g., Skyscanner) will remain available, stable, and within free-tier limits during   
+  development.
+- Users will have stable internet access while using the app.
+- Mobile devices used for testing will support modern frameworks and required OS versions.
+- Cloud hosting services (e.g., Firebase, AWS) will remain operational with minimal downtime.
+- Sprint schedule and team availability will remain consistent throughout the project timeline.
+
+### 7.3 Quality Assurance
+- Automated unit tests will be implemented for authentication, trip management, and API integration modules.
+- Integration testing will verify that chat, voting, media upload, and itinerary features work correctly together.
+- Code reviews will be conducted for all pull requests to ensure code quality and maintainability.
+- Continuous Integration (CI) via GitHub Actions will automatically run tests on each commit.
+- UI/UX walkthroughs and user testing sessions will be conducted to validate usability and performance.
+- Error handling and fallback mechanisms will be tested for API failures and network disruptions.
