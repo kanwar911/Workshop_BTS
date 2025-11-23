@@ -110,8 +110,7 @@ The Trip Sharing App project will produce several key deliverables that ensure t
 | Feature Prioritization Meeting | Product Owner | Validate requirements, prioritize features, ensure alignment with user needs | Weekly | Zoom Meeting + Product Board | Product Manager |
 | User Feedback Collection | End Users | Gather usability feedback, test trip-sharing features | At prototype & major releases | Surveys + In-App Feedback | UX Researcher |
 | Compliance & Data Protection Check | Government Regulators | Ensure adherence to privacy laws and data security standards | At key deliverables | Compliance Report | Compliance Officer |
-| Communication Item	Stakeholder	Purpose	Frequency	Format	Responsible
-Design Review & UX Alignment | UI/UX Designers | Ensure visual consistency, validate user flows, and approve interface changes before development | Bi-weekly or per major feature | Figma Review + Zoom Meeting | Project Manager |
+| Design Review & UX Alignment | UI/UX Designers | Ensure visual consistency, validate user flows, and approve interface changes before development | Bi-weekly or per major feature | Figma Review + Zoom Meeting | Project Manager |
 
 ## 7. Risks, Assumptions, and Constraints  
 
