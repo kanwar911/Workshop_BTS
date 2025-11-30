@@ -117,7 +117,7 @@ The Trip Sharing App project will produce several key deliverables that ensure t
 **7.1 Identified Risks**
 
 1. Security & Data Breach Risk (High Impact, High Likelihood)
-Sensitive user information—including trip details, chat messages, and profile data—may be exposed due to weak authentication, misconfigured API endpoints, or insecure cloud storage. A breach could compromise user trust and require urgent remediation.
+Sensitive user information including trip details, chat messages, and profile data may be exposed due to weak authentication, misconfigured API endpoints, or insecure cloud storage. A breach could compromise user trust and require urgent remediation.
 
 2. Third-Party API Instability (High Impact, Low Likelihood)
 External services such as Skyscanner or other travel APIs may experience outages, rate-limiting, or return inconsistent data. This can disrupt the core functionality of flight and hotel search features.
