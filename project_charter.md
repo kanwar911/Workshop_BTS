@@ -114,20 +114,25 @@ The Trip Sharing App project will produce several key deliverables that ensure t
 
 ## 7. Risks, Assumptions, and Constraints  
 
-### 7.1 Identified Risks
+**7.1 Identified Risks**
 
 1. Security & Data Breach Risk (High Impact, High Likelihood)
-Sensitive trip details, user chats, and personal information could be exposed due to vulnerabilities in authentication, API endpoints, or insecure storage.
-2. Third-Party API Failure (High Impact, Low Likelihood)
-Skyscanner or external travel APIs may experience downtime, rate limits, or data errors, breaking flight/hotel search features.
-3. Development Delays due to Technical Complexity (High Likelihood, High Impact)
-Team workload, bugs in chat/voting modules, or CI/CD issues may slow down sprint completion and affect the release timeline.
-4. Poor User Adoption or Low Engagement (Low Likelihood, High Impact)
-Users may find the app confusing or not valuable, resulting in limited usage of collaboration or itinerary features.
-5. Media Upload Storage Overrun (High Likelihood, Low Impact)
-Users uploading many trip photos may exceed storage quotas or increase cloud costs unexpectedly.
-6. Compliance & Privacy Risk (Low Likelihood, High Impact)
-Failure to align with data protection laws (GDPR, PIPEDA, etc.) could lead to penalties or forced redesign of the backend.
+Sensitive user information—including trip details, chat messages, and profile data—may be exposed due to weak authentication, misconfigured API endpoints, or insecure cloud storage. A breach could compromise user trust and require urgent remediation.
+
+2. Third-Party API Instability (High Impact, Low Likelihood)
+External services such as Skyscanner or other travel APIs may experience outages, rate-limiting, or return inconsistent data. This can disrupt the core functionality of flight and hotel search features.
+
+3. Development Delays from Technical Complexity (High Impact, High Likelihood)
+Challenges in implementing real-time chat, collaborative editing, or CI/CD pipelines may extend sprint timelines. Team workload imbalance or unresolved bugs could slow development progress.
+
+4. Low User Adoption & Engagement (High Impact, Low Likelihood)
+If the interface lacks clarity or does not provide enough perceived value, users may not engage with collaboration features such as shared itineraries or group voting. This could reduce the overall success of the platform.
+
+5. Media Storage Overload (Low Impact, High Likelihood)
+Heavy use of photo and media uploads could exceed expected storage limits, increasing operational costs or requiring additional storage optimization strategies.
+
+6. Compliance & Privacy Regulation Risk (High Impact, Low Likelihood)
+Misalignment with data protection standards (GDPR, PIPEDA, etc.) may require architectural changes or lead to legal consequences. Proper data handling and retention policies must be enforced to avoid compliance issues.
 
 ### 7.2 Matrix of Risks
 ![Risk_Matrix](./artifacts/Risk_Matrix.png)
