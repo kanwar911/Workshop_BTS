@@ -53,8 +53,8 @@ Sprint 8 — CI/CD, Docker & Final Polish
 Focus on deployment readiness and optimization. Containerize the app using Docker and implement CI/CD pipelines via GitHub Actions for automated testing and delivery. Perform bug fixes, UI refinements, and performance tuning before release.
 
 ### 3.1 Work Breakdown Structure
+<img width="1550" height="376" alt="wbs" src="https://github.com/user-attachments/assets/f8f11534-61c5-41cc-9af3-bc8becb9d4fe" />
 
-![Work Breakdown Structure](./WBS/WBS_WS7.png)
 
 ### 3.2 Requirements Traceability Matrix
 
@@ -91,7 +91,8 @@ The Trip Sharing App project will produce several key deliverables that ensure t
 ---
 
 ### 4.1 Gantt Chart  
-![Gantt Chart](./artifacts/BTS_WS_GANTT_CHART.png)
+<img width="1187" height="520" alt="Pasted image" src="https://github.com/user-attachments/assets/04f820fe-6b47-4710-a684-c0b1f23d2bb2" />
+
 
 ## 5. Preliminary Budget  
 ![Budget Table](./artifacts/BTS_WS_BUDGET.png)
