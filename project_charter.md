@@ -97,7 +97,8 @@ The Trip Sharing App project will produce several key deliverables that ensure t
 ![Budget Table](./artifacts/BTS_WS_BUDGET.png)
 
 ## 6. Organization and Stakeholders  
-![Stakeholders](./artifacts/BTS_WS_MATRIX.png)   
+<img width="2816" height="1536" alt="Gemini_Generated_Image_7ctp1x7ctp1x7ctp" src="https://github.com/user-attachments/assets/f92d57bb-213e-4449-8fc7-b030a46ae22f" />
+
 
 ### 6.1 Communication Plan
 ### Communications Plan
